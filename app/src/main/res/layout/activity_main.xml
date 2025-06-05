@@ -19,10 +19,10 @@
         tools:context=".MainActivity"
         android:orientation="horizontal">
         <include
-            layout="@layout/menugoiaba_layout"/>
+            layout="@layout/menuuva_layout"/>
 
         <include
-            layout="@layout/menukiwi_layout"/>
+            layout="@layout/menumorango_layout"/>
 
 
     </LinearLayout>
