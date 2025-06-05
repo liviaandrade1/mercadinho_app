@@ -3,17 +3,30 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
-    android:layout_width="match_parent"
+    android:layout_width="wrap_content"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
-   <include
-       layout="@layout/menu_layout"/>
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <include
+        layout="@layout/menugoiaba_layout"/>
 
     <include
-        layout="@layout/menubanana_layout"/>
+        layout="@layout/menukiwi_layout"/>
 
-    <include
-        layout="@layout/menuuva_layout"/>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="horizontal">
+        <include
+            layout="@layout/menugoiaba_layout"/>
 
+        <include
+            layout="@layout/menukiwi_layout"/>
+
+
+    </LinearLayout>
 </LinearLayout>
+
+
+
