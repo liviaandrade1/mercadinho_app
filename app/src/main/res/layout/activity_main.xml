@@ -13,4 +13,7 @@
     <include
         layout="@layout/menubanana_layout"/>
 
+    <include
+        layout="@layout/menuuva_layout"/>
+
 </LinearLayout>
