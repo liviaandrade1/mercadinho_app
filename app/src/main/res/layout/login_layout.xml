@@ -32,7 +32,8 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:background="@color/white">
+        android:background="@color/white"
+        android:backgroundTint="#9BC2E0">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
@@ -51,7 +52,8 @@
         android:layout_centerVertical="true"
         android:background="@color/white"
         android:layout_below="@+id/textField2"
-        android:layout_marginTop="38dp">
+        android:layout_marginTop="38dp"
+        android:backgroundTint="#9BC2E0">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
@@ -66,6 +68,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Livz e Glau"
+        android:textSize="18sp"
         android:layout_marginTop="966sp"
         android:layout_centerHorizontal="true"
         android:textColor="#9EC1CC"
@@ -80,6 +83,7 @@
         android:textSize="25sp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="650sp"
+        android:textColor="#2959AB"
         />
 
     <Button
@@ -91,6 +95,7 @@
         android:textSize="25sp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="720sp"
+        android:textColor="#2959AB"
         />
 
 </RelativeLayout>

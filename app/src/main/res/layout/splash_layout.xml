@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:text="Mercadinho Ideal"
         android:layout_centerHorizontal="true"
-        android:layout_margin="300dp"
+        android:layout_margin="270dp"
         android:textSize="40sp"
         android:fontFamily="@font/spicyriceregular"
         />
